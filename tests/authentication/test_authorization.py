@@ -24,7 +24,7 @@ from tools.routes import AppRoute
 @allure.sub_suite(AllureStory.AUTHORIZATION)
 class TestAuthorization:
     @allure.tag(AllureTag.USER_LOGIN)
-    @allure.title("User login with correct email and password")
+    @allure.title("User login with correct emai l and password")
     @allure.severity(Severity.BLOCKER)
     def test_successful_authorization(
             self,
