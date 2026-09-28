@@ -44,6 +44,8 @@ jobs:
   publish-report:
     needs: [ run-tests ]
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Download Allure results
